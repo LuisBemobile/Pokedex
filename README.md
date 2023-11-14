@@ -1,8 +1,9 @@
-# React + Vite
+# Pokédex em React Funcional com Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Descrição
+Este projeto consiste em uma aplicação Pokédex simples onde os usuários podem visualizar informações sobre diferentes Pokémon. A aplicação tem as seguintes funcionalidades:
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Visualização de Pokémon: Exibe informações sobre Pokémon, como nome, tipo, peso médio e uma imagem.
+Navegação entre Pokémon: Permite aos usuários navegar entre os Pokémon disponíveis na lista.
+Filtragem por Tipo: Oferece a opção de filtrar Pokémon por tipo (Elétrico, Fogo, Água, etc.).
+Exibição Completa: Fornece um link para mais informações sobre cada Pokémon.
