@@ -1,7 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-const Pokemon = ({ pokemon }) => {
-  const { name, type, averageWeight, image } = pokemon
+
+function Pokemon({ pokemon }) {
+  const {
+    name, type, averageWeight, image,
+  } = pokemon;
 
   return (
     <div className="pokemon">
@@ -18,7 +21,7 @@ const Pokemon = ({ pokemon }) => {
       <img src={image} alt={`${name}`} />
     </div>
   );
-};
+}
 
 Pokemon.propTypes = {
   pokemon: PropTypes.shape({

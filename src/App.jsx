@@ -1,17 +1,12 @@
 import React from 'react';
-import pokemonList from './data';
 
-import './App.css'
-// import Pokemon from './components/Pokemon'
-import Pokedex from './components/Pokedex';
+import './App.css';
+import SelectPokemon from './components/SelectPokemon';
 
 function App() {
   return (
-    <>
-   <Pokedex pokemonList={pokemonList  }/>
-   {/* <Pokemon pokemon={pokemonList[0]} /> */}
-    </>
-  )
+    <SelectPokemon />
+  );
 }
 
-export default App
+export default App;

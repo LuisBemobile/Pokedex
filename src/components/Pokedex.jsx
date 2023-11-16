@@ -1,10 +1,8 @@
 import React from 'react';
-import Pokemon from './Pokemon';
 import PropTypes from 'prop-types';
+import Pokemon from './Pokemon';
 
-
-const Pokedex = ({ pokemonList }) => { 
-
+function Pokedex({ pokemonList }) {
   return (
     <>
       <h1> Pokédex </h1>
@@ -15,7 +13,7 @@ const Pokedex = ({ pokemonList }) => {
       </div>
     </>
   );
-};
+}
 
 Pokedex.propTypes = {
   pokemonList: PropTypes.arrayOf(
@@ -29,12 +27,8 @@ Pokedex.propTypes = {
       }).isRequired,
       image: PropTypes.string.isRequired,
       moreInfo: PropTypes.string.isRequired,
-    })
+    }),
   ).isRequired,
-};
-
-Pokedex.defaultProps = {
-  pokemonList: [],
 };
 
 export default Pokedex;
