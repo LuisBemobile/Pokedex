@@ -5,5 +5,4 @@ Este projeto consiste em uma aplicação Pokédex simples onde os usuários pode
 
 Visualização de Pokémon: Exibe informações sobre Pokémon, como nome, tipo, peso médio e uma imagem.
 Navegação entre Pokémon: Permite aos usuários navegar entre os Pokémon disponíveis na lista.
-Filtragem por Tipo: Oferece a opção de filtrar Pokémon por tipo (Elétrico, Fogo, Água, etc.).
-Exibição Completa: Fornece um link para mais informações sobre cada Pokémon.
+Filtragem por Tipo: Oferece a opção de filtrar Pokémon por tipo (Elétrico, Fogo, Água, etc.)
